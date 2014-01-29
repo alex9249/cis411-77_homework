@@ -1,0 +1,21 @@
+@charset "utf-8";
+table.dataTable {
+	width: 100%;
+}
+table.dataTable thead th {
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	cursor: pointer;
+	*cursor: hand;
+}
+
+.dataTables_filter {
+	float: right;
+	text-align: right;
+}
+
+.dataTables_paginate {
+	float: right;
+	text-align: right;
+}
+

@@ -1,0 +1,45 @@
+body{
+	background-image: url(sloth.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	text-align: center;
+}
+nav{
+	border:solid;
+	border-color:#000;
+	color:#000;
+	word-spacing:normal;
+	text-align:center;
+}
+.board{
+  width:380px;  
+  height:379.5px;
+  border:solid#000;
+  }
+.square{
+  height:120.5px;
+  width:120.5px;
+  float:left;
+  font-size: 100px;
+  text-align:center;
+  border:solid#000;
+  }
+  table.dataTable {
+	width: 100%;
+}
+table.dataTable thead th {
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	cursor: pointer;
+	*cursor: hand;
+}
+
+.dataTables_filter {
+	float: right;
+	text-align: right;
+}
+
+.dataTables_paginate {
+	float: right;
+	text-align: right;
+}
